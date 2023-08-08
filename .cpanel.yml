@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/mastelbs/public_html/mastergym.mx
+    - export DEPLOYPATH=/home4/mastelbs/public_html/mastergym
     - /bin/cp -R * $DEPLOYPATH

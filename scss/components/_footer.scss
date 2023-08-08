@@ -35,4 +35,7 @@ footer {
 	-ms-scroll-snap-align: start;
 	overflow-y: scroll;
 	background-color: $background-color_1;
+	.container {
+		margin-top: 20vh;
+	}
 }
