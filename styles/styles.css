@@ -344,6 +344,10 @@ footer {
   overflow-y: scroll;
   background-color: #f9f9f6;
 }
+footer .container {
+  margin-top: 20vh;
+}
+
 #testimonios {
   background-color: #f9f9f6;
 }
