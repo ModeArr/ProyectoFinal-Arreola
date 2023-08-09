@@ -1,9 +1,6 @@
 a {
 	text-decoration: none !important;
-	color: $color_a;
-	&:link {
-		color: $color_a_link !important;
-	}
+	color: $color_a!important;
 	&:visited {
 		color: $color_a_visited !important;
 	}
@@ -12,8 +9,5 @@ a {
 	}
 	&:active {
 		color: $color_a_active !important;
-	}
-	.nav-link{
-		color: white;
 	}
 }
