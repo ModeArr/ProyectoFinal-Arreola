@@ -9,9 +9,8 @@
   list-style: none;
 }
 
-::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 0px;
-  background: gray;
 }
 
 #index {
@@ -29,6 +28,7 @@
   scroll-snap-align: start;
   -ms-scroll-snap-align: start;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 .container {
@@ -232,6 +232,9 @@ a {
   text-decoration: none !important;
   color: #335c67;
 }
+a:link {
+  color: rgb(0, 0, 0) !important;
+}
 a:visited {
   color: #e09f3e !important;
 }
@@ -242,7 +245,7 @@ a:active {
   color: #540b0e !important;
 }
 a .nav-link {
-  color: white !important;
+  color: white;
 }
 
 header {

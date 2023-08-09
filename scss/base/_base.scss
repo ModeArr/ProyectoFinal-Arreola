@@ -5,10 +5,11 @@
 	box-sizing: border-box;
 	list-style: none;
 }
-::-webkit-scrollbar {
-	width: 0px;
-	background: gray;
+
+*::-webkit-scrollbar {
+    width: 0px;
 }
+
 #index {
 	-ms-scroll-snap-type: mandatory;
 	scroll-snap-type: mandatory;
@@ -23,6 +24,7 @@
 		scroll-snap-align: start;
 		-ms-scroll-snap-align: start;
 		overflow-y: scroll;
+		scrollbar-width: none;
 	}
 }
 .container {
