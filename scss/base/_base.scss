@@ -16,6 +16,7 @@
 	scroll-snap-points-y: repeat(100vh);
 	-ms-scroll-snap-type: y mandatory;
 	scroll-snap-type: y mandatory;
+	scrollbar-width: none;
 	section {
 		height: 100vh;
 		width: 100vw;
@@ -42,6 +43,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+	scrollbar-width: none;
   }
 ::selection {
     background-color: $accent;
