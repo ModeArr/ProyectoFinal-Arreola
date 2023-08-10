@@ -242,6 +242,12 @@ a:active {
   color: #540b0e !important;
 }
 
+.menu-link {
+  color: white !important;
+  font-size: 1.8rem !important;
+  font-weight: bold !important;
+}
+
 header {
   position: absolute;
   width: 100%;
@@ -302,6 +308,10 @@ header {
     margin-right: 55rem !important;
   }
 }
+.offcanvas-title {
+  font-size: 2rem !important;
+}
+
 .logoFooter {
   width: 20%;
 }
